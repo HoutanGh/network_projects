@@ -1,6 +1,6 @@
 # Notes:
 
-##### Python Sockets Simply Explained
+### Python Sockets Simply Explained
 
 - Client and Server Arhictecture
 - Socket Theory
@@ -16,4 +16,8 @@
     - UDP: `sock_dgram` 
         - individual messages
         - more real-time (faster)
+
+### TCP/IP for Programmers
+
+
 
