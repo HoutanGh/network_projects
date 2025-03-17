@@ -6,6 +6,6 @@
 - Socket Theory
     - socket: communication endpoint
     - bluetooch, internet, OS
-    - 'socket.AF_NET'
+    - `socket.AF_NE`
 
 
