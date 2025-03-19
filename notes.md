@@ -19,7 +19,7 @@
 
 ## TCP/IP for Programmers
 
-[ ] - get MAC addresses
+[ ] get MAC addresses
 
 - Logical Devices: Firewall, Router, Modem, Access Point
 - Modem -> Router -> Switch 
@@ -42,9 +42,43 @@
 - Part is the Vendor ID, Part is the Serial Number
 - for ports?
 
-#### Layer 2 networking
+#### Layer 2 networking (ethernet layer networking)
 - Hubs
 - Bridges: connecting hubs
     - determine if the MAC address being looked for is on the other hub, if not it blocks the connection
 - Switch: what if every port was a switch?
     - blasts all the ports for MAC address and finds out MAC address at a certain port
+    - backplane: communication for all these ports together
+
+#### Layer 3 Networking
+- connecting multiple networks together
+- LAN, WAN, CAN, MAN, internet
+- Switch -> Router -> WAN
+- can manually address routable addresses (TCP/IP)
+- LAN -> WAN -> Internet
+
+#### TCP/IP v4 - Routable Suite
+- multiple protocols
+- TCP: how devices talk to each other
+- IP: Addressing Protocol
+- ICMP (Internet Communication Message Protocol)
+- Subnet Mask
+
+#### Private IP Address Blocks
+
+#### Switches
+- Layer 2 Networking (IP addresses at Layer 3)
+- Contains MAC Address Tables
+- for Switches and IP to work together we use ARP (Address Resolution Protocol)
+    - ARP: resolves MAC address to IP address
+    - Cacheing issues when you change IP and MAC address doesn't change
+
+#### TCP Ports
+- Firewall blocks ports
+- generally preconfigured but can be manually set
+
+#### Routers and Default Gateways
+- Default Gateway: your computer talking to another computer
+    - Router/Modem, it connects networks
+
+
