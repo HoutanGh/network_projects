@@ -81,4 +81,23 @@
 - Default Gateway: your computer talking to another computer
     - Router/Modem, it connects networks
 
+#### NAT and Port Forwarding
+- NAT killed IPv6
+- numerous connected devices can share the same external IP address
 
+#### Internet Facing Static IP Addresses
+- directly connected to the internet
+- no need for port forwarding
+
+#### Firewalls
+- block TCP ports
+- database cluster
+    - databases communicating with each other
+    - put them on their own network, and put a firewall and router in between their network and a web network
+
+#### Domain Name Service
+- Resolves fully qualified domain names to IP addresses
+- hosts file
+- reverse DNS
+
+#### DHCP - Dynamic Host Configuration Protocol
