@@ -98,6 +98,21 @@
 #### Domain Name Service
 - Resolves fully qualified domain names to IP addresses
 - hosts file
-- reverse DNS
+- reverse DNS: checks if the IP address is connected to the right domain name
 
 #### DHCP - Dynamic Host Configuration Protocol
+- people coming in and out: dynamically assign IP addresses
+- scope: pool of IP addresses that DHCP can assign from
+- problems with expirations
+- write code for DNS names not IP addresses
+
+#### VPN
+- tunnel that allows remote computers to remotely interact to a LAN
+- if it senses that the tunnel has been comprised it closes the tunnel and makes a new one
+
+#### Command Line Tools
+- ping -c 1
+- arp -a
+- traceroute
+- ipconfig
+
